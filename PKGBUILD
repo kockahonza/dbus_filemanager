@@ -9,8 +9,7 @@ license=("GPL")
 depends=("python" "python-gobject" "python-dbus" "python-systemd" "python-pyxdg")
 source=("org.${pkgname}.FileManager1.service" "${pkgname}.py")
 sha256sums=('9f9a375145fa3e5092bb93e2c152084a4c2e7c97544156f99e3163ab5d838445'
-            'e381a1f72c736cf897e3e6fd830514c3766a1ce9c9be97f8c088e539342b5436')
-
+            '7fc757f9bb455743ca7f73d416e9217268790a933551ec065e0fae92a1a76034')
 
 package() {
     mkdir -p "${pkgdir}/usr/bin"
