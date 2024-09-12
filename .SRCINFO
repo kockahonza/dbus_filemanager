@@ -1,0 +1,17 @@
+pkgbase = dbus_filemanager
+	pkgdesc = Simple, customizable python dbus daemon implementing FileManager1
+	pkgver = 1
+	pkgrel = 1
+	arch = any
+	license = GPL
+	depends = python
+	depends = python-gobject
+	depends = python-dbus
+	depends = python-systemd
+	depends = python-pyxdg
+	source = org.dbus_filemanager.FileManager1.service
+	source = dbus_filemanager.py
+	sha256sums = 9f9a375145fa3e5092bb93e2c152084a4c2e7c97544156f99e3163ab5d838445
+	sha256sums = e381a1f72c736cf897e3e6fd830514c3766a1ce9c9be97f8c088e539342b5436
+
+pkgname = dbus_filemanager
